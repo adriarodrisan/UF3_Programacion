@@ -1,4 +1,4 @@
 import os
 fd=open('./document.txt', 'r+')
-os.rename('document.txt','document')
-fd.close()
+document=input("nombre del documento: ")
+os.rename('document.txt',document)
